@@ -21,7 +21,7 @@ nav{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 150px 40px 90px;
+    padding: 40px 100px;
 }
 
 .nav-logo{
@@ -51,8 +51,12 @@ nav{
     padding: 10px 30px;
 }
 
+nav .fa-bars{
+    display: none;
+}
+
 .header-image{
-    width: 750px;
+    width: 50vw;
 }
 
 .header-text{
@@ -63,7 +67,7 @@ nav{
 }
 
 .header-content{
-    margin-left: 150px;
+    margin-left: 100px;
     margin-top: 100px;
 }
 
@@ -93,13 +97,12 @@ nav{
 }
 
 .content-img{
-    width: 700px;
+    width: 55%;
 }
 
 
 .content-right{
-    height: 500px;
-    margin-left: 200px;
+    margin-left: 100px;
 }
 
 .content-heading{
